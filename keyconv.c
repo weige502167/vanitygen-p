@@ -183,7 +183,7 @@ main(int argc, char **argv)
 					"WDC : Worldcoin Global : W\n"
 					"WKC : Wankcoin : 1\n"
 					"WUBS : Dubstepcoin : D\n"
-					"XC : XCurrency : X\n"
+					"XRP : Ripple : r\n"
 					"XPM : Primecoin : A\n"
 					"YAC : Yacoin : Y\n"
 					"YTN : Yenten : Y\n"
@@ -338,11 +338,11 @@ main(int argc, char **argv)
 					break;
 			}
 			else
-			if (strcmp(optarg, "XC")== 0) {
+			if (strcmp(optarg, "XRP")== 0) {
 				fprintf(stderr,
-					"Decrypting XC Address\n");
-					addrtype_opt = 75;
-					privtype_opt = 203;
+					"Decrypting Ripple Address\n");
+					addrtype_opt = 0;
+					privtype_opt = 34;
 					break;
 			}
 			else
