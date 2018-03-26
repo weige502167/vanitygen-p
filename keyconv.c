@@ -340,7 +340,7 @@ main(int argc, char **argv)
 			else
 			if (strcmp(optarg, "XRP")== 0) {
 				fprintf(stderr,
-					"Decrypting Ripple Address\n");
+					"Decrypting XRP Address\n");
 					addrtype_opt = 0;
 					privtype_opt = 34;
 					break;
